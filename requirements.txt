@@ -1,0 +1,20 @@
+# Core scientific stack
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+matplotlib>=3.7
+
+# Structural biology
+biotite>=0.40
+biopython>=1.83
+rdkit>=2023.9
+py3Dmol>=2.0
+
+# Models
+fair-esm>=2.0          # ESMFold (notebook 05)
+generate-chroma         # Chroma; needs API key for weights
+rc-foundry[rfd3]        # RFdiffusion3 CLI
+# LigandMPNN: cloned at runtime via utils.ensure_ligandmpnn()
+
+# Notebooks
+ipykernel
